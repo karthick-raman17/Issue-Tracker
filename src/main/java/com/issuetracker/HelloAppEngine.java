@@ -12,9 +12,10 @@ public class HelloAppEngine extends HttpServlet {
   public void doGet(HttpServletRequest request, HttpServletResponse response) 
       throws IOException {
       
-    response.setContentType("text/plain");
-    response.setCharacterEncoding("UTF-8");
+//    response.setContentType("text/plain");
+//    response.setCharacterEncoding("UTF-8");
 
+	  System.out.println("this is HelloAppEngine Servlet");
     response.getWriter().print("Hello App Engine!\r\n");
 
   }
