@@ -1,0 +1,29 @@
+.close-btn {
+	position: relative;
+	bottom: 22px;
+	right: 10px;
+}
+
+
+.create-event-btn {
+	float: right;
+	position: relative;
+	top: 15px;
+	right: 19%;
+	background-color: white;
+	color: #95a5a6 !important;
+}
+
+.create-event-btn:hover {
+	color: black !important;
+	cursor: pointer;
+	background-color: #ecf0f1;
+}
+
+.create-event-btn:focus,.close:focus {
+	outline: none;
+}
+
+textarea.ticket-desp{
+	resize : none;
+}
